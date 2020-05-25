@@ -84,6 +84,7 @@ a:hover {
     width: 565px;
     height: 200px;
     font-family: "Poppins", sans-serif;
+    border-radius: 5%;
 }
 
 .submit-btn {
@@ -103,4 +104,14 @@ a:hover {
 .main-form-home-page {
     display: flex;
     flex-direction: column;
+}
+/* Media Queries */
+@media (max-width: 768px) {
+    .big-box {
+        max-width: 300px;
+        border-radius: 5%;
+    }
+    .main-header a {
+        padding: 0;
+    }
 }
